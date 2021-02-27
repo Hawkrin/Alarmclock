@@ -13,10 +13,10 @@ int main () {
 
 	int input;
     
-   	 printf ("What's the current time? Enter in format HHMMSS: \n");
+   	printf ("What's the current time? Enter in format HHMMSS: \n");
     	scanf ("%d", &input);
     	printf ("When do you want the alarm to go off? Enter in format HHMMSS: \n");
-   	 scanf ("%d", &alarminput);
+   	scanf ("%d", &alarminput);
     
     	/*math to split HHMMSS into hour/minute/second*/
     	hour = input / 10000;		
@@ -37,7 +37,7 @@ int clock_function() {
       		printf ("%02d : %02d : %02d \n", hour, minute, second);
       		if (second == 60) {
     	  		minute += 1;
-    	 		 second = 0;
+    	 		second = 0;
 		}
       		if (minute == 60) {
     			hour += 1;
