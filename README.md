@@ -1,2 +1,2 @@
 # Alarmclock
-My first program ever made
+My first program
